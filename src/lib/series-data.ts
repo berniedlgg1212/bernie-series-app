@@ -74,7 +74,6 @@ const seriesBaseData = [
   { id: 58, title: 'Dynasty', isFavorite: true, imageId: 'series-61' },
   { id: 59, title: 'Prison Break', isFavorite: true, imageId: 'series-62' },
   { id: 60, title: 'Cobra Kai', isFavorite: true, imageId: 'series-63' },
-  { id: 61, title: 'Marvel\'s Agents of S.H.I.E.L.D.', isFavorite: false, imageId: 'series-64' },
   { id: 63, title: 'WandaVision', isFavorite: false, imageId: 'series-65' },
   { id: 64, title: '9-1-1', isFavorite: false, imageId: 'series-66' },
   { id: 65, title: 'The Book of Boba Fett', isFavorite: true, imageId: 'series-67' },
@@ -163,7 +162,6 @@ const descriptions: Record<string, string> = {
   'Dynasty': 'Follows two of America\'s wealthiest families as they feud for control over their fortune and their children.',
   'Prison Break': 'A structural engineer installs himself in a prison he helped design, in order to save his falsely accused brother from a death sentence.',
   'Cobra Kai': 'Decades after their 1984 All Valley Karate Tournament bout, a middle-aged Daniel LaRusso and Johnny Lawrence find themselves martial-arts rivals again.',
-  'Marvel\'s Agents of S.H.I.E.L.D.': 'The missions of the Strategic Homeland Intervention, Enforcement and Logistics Division.',
   'WandaVision': 'Living idealized suburban lives, super-powered beings Wanda and Vision begin to suspect that everything is not as it seems.',
   '9-1-1': 'Explores the high-pressure experiences of first responders -- including police officers, firefighters and dispatchers -- who are thrust into the most frightening, shocking and heart-stopping situations.',
   'The Book of Boba Fett': 'Bounty hunter Boba Fett and mercenary Fennec Shand navigate the underworld of the galaxy when they return to the sands of Tatooine to stake their claim on the territory once ruled by Jabba the Hutt.',
@@ -188,6 +186,14 @@ const descriptions: Record<string, string> = {
   'Hostage': 'A thrilling drama series about a family caught in a political conspiracy.',
 };
 
+const top5Posters: Record<string, string> = {
+  'Game of Thrones': 'https://image.tmdb.org/t/p/original/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg',
+  'White Collar': 'https://image.tmdb.org/t/p/original/n2TjFma1iXkG5L7eC2f8sK7sW6.jpg',
+  'Suits': 'https://image.tmdb.org/t/p/original/vHviFxO5x6flpCI0WHQ4JpP1f5s.jpg',
+  'Los hombres del SAS': 'https://image.tmdb.org/t/p/original/uFMAba5Gq5I4VdY3A33y0X2L22O.jpg',
+  'The Mandalorian': 'https://image.tmdb.org/t/p/original/p6t2lAdGGrTvk36H7PLi2g2Oa3j.jpg',
+};
+
 
 export const allSeries: Series[] = seriesBaseData.map(series => {
   const image = PlaceHolderImages.find(p => p.id === series.imageId);
@@ -197,9 +203,7 @@ export const allSeries: Series[] = seriesBaseData.map(series => {
     ...series,
     description: descriptions[series.title] || 'A great series to watch.',
     rating: rating,
-    imageUrl: image?.imageUrl || `https://picsum.photos/seed/${series.id}/400/600`,
+    imageUrl: top5Posters[series.title] || image?.imageUrl || `https://picsum.photos/seed/${series.id}/400/600`,
     imageHint: image?.imageHint || 'tv series',
   };
 });
-
-    
