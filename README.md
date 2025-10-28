@@ -2,7 +2,7 @@
 
 This project is a Single Page Application (SPA) designed for TV series enthusiasts. It allows users to browse a comprehensive list of shows, view details, and add their own reviews for the series they've watched.
 
-**Author:** [Your Name Here]
+**Author:** Bernardo De La Garza Garza
 **Hobby:** Watching TV Series
 
 ## 🚀 Deployed Application
