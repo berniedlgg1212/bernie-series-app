@@ -3,7 +3,7 @@ import { SeriesCard } from '@/components/SeriesCard';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'All Series | SeriesSphere',
+  title: "All Series | Bernie's Series",
   description: 'A list of all series watched.',
 };
 

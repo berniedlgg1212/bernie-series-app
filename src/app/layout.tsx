@@ -5,7 +5,7 @@ import { Header } from '@/components/Header';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'SeriesSphere',
+  title: "Bernie's Series",
   description: 'Track the series you have watched.',
 };
 

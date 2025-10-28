@@ -18,7 +18,7 @@ export function Header() {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg text-primary">
           <Tv className="h-6 w-6" />
-          <span className="font-headline">SeriesSphere</span>
+          <span className="font-headline">Bernie's Series</span>
         </Link>
         <div className="flex items-center gap-4">
           {navLinks.map((link) => (
