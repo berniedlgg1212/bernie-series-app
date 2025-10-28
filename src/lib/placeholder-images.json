@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "series-1",
+      "description": "A spaceship floating in a colorful nebula.",
+      "imageUrl": "https://images.unsplash.com/photo-1671700903366-455d18bb8e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzY2ktZmklMjBzcGFjZXxlbnwwfHx8fDE3NjE1ODQ4Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi space"
+    },
+    {
+      "id": "series-2",
+      "description": "A neon-lit futuristic city at night.",
+      "imageUrl": "https://images.unsplash.com/photo-1573767291321-c0af2eaf5266?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjeWJlcnB1bmslMjBjaXR5fGVufDB8fHx8MTc2MTYwODEzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cyberpunk city"
+    },
+    {
+      "id": "series-3",
+      "description": "A detective looking at a clue board in a dark room.",
+      "imageUrl": "https://images.unsplash.com/photo-1758525589403-1235e5d6c300?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxteXN0ZXJ5JTIwZGV0ZWN0aXZlfGVufDB8fHx8MTc2MTU2MTY1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mystery detective"
+    },
+    {
+      "id": "series-4",
+      "description": "A group of friends laughing around a campfire.",
+      "imageUrl": "https://images.unsplash.com/photo-1758525862263-af89b090fb56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21lZHklMjBmcmllbmRzfGVufDB8fHx8MTc2MTY1NDc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comedy friends"
+    },
+    {
+      "id": "series-5",
+      "description": "A castle on a hill under a stormy sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1492502014314-f5522cae92a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFudGFzeSUyMGNhc3RsZXxlbnwwfHx8fDE3NjE2MzEwNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy castle"
+    },
+    {
+      "id": "series-6",
+      "description": "A couple walking hand-in-hand on a beach at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1598871244392-76f6d0ab08f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb21hbmNlJTIwYmVhY2h8ZW58MHx8fHwxNzYxNTc0OTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "romance beach"
+    },
+    {
+      "id": "series-7",
+      "description": "A lone warrior standing on a mountain peak.",
+      "imageUrl": "https://images.unsplash.com/photo-1648298588772-56844c7e9ff8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWN0aW9uJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc2MTY0NTA0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "action adventure"
+    },
+    {
+      "id": "series-8",
+      "description": "An old book with glowing symbols on its cover.",
+      "imageUrl": "https://images.unsplash.com/photo-1625675337903-ee71413606a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWdpYyUyMGJvb2t8ZW58MHx8fHwxNzYxNjM0MjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "magic book"
+    },
+    {
+      "id": "series-9",
+      "description": "A modern operating room with surgeons at work.",
+      "imageUrl": "https://images.unsplash.com/photo-1659353888161-d71c6fd99847?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZWRpY2FsJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjYwNjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "medical drama"
+    },
+    {
+      "id": "series-10",
+      "description": "A post-apocalyptic survivor looking over a ruined city.",
+      "imageUrl": "https://images.unsplash.com/photo-1734548850375-3b7edc77bcee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkeXN0b3BpYW4lMjBmdXR1cmV8ZW58MHx8fHwxNzYxNjYwNjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dystopian future"
+    }
+  ]
 }
