@@ -188,7 +188,7 @@ const descriptions: Record<string, string> = {
 
 const top5Posters: Record<string, string> = {
   'Game of Thrones': 'https://image.tmdb.org/t/p/original/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg',
-  'White Collar': 'https://image.tmdb.org/t/p/original/n2TjFma1iXkG5L7eC2f8sK7sW6.jpg',
+  'White Collar': 'https://image.tmdb.org/t/p/original/4z1kY32YPPasP4aI2e5a2s3pS4.jpg',
   'Suits': 'https://image.tmdb.org/t/p/original/vHviFxO5x6flpCI0WHQ4JpP1f5s.jpg',
   'Los hombres del SAS': 'https://image.tmdb.org/t/p/original/uFMAba5Gq5I4VdY3A33y0X2L22O.jpg',
   'The Mandalorian': 'https://image.tmdb.org/t/p/original/p6t2lAdGGrTvk36H7PLi2g2Oa3j.jpg',
