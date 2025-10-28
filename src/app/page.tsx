@@ -12,8 +12,11 @@ import { Badge } from '@/components/ui/badge';
 
 export default function Home() {
   const topSeries = allSeries
-    .sort((a, b) => b.rating - a.rating)
-    .slice(0, 5);
+    .filter(s => ['Game of Thrones', 'White Collar', 'Suits', 'Los hombres del SAS', 'The Mandalorian'].includes(s.title))
+    .sort((a, b) => {
+      const order = ['Game of Thrones', 'White Collar', 'Suits', 'Los hombres del SAS', 'The Mandalorian'];
+      return order.indexOf(a.title) - order.indexOf(b.title);
+    });
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
@@ -65,3 +68,5 @@ export default function Home() {
     </div>
   );
 }
+
+    

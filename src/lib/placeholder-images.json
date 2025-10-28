@@ -2,63 +2,433 @@
   "placeholderImages": [
     {
       "id": "series-1",
-      "description": "A spaceship floating in a colorful nebula.",
-      "imageUrl": "https://images.unsplash.com/photo-1671700903366-455d18bb8e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzY2ktZmklMjBzcGFjZXxlbnwwfHx8fDE3NjE1ODQ4Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "sci-fi space"
+      "imageUrl": "https://images.unsplash.com/photo-1728325430058-d14f990cb727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmYW50YXN5JTIwdGhyb25lfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy throne"
     },
     {
       "id": "series-2",
-      "description": "A neon-lit futuristic city at night.",
-      "imageUrl": "https://images.unsplash.com/photo-1573767291321-c0af2eaf5266?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjeWJlcnB1bmslMjBjaXR5fGVufDB8fHx8MTc2MTYwODEzNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cyberpunk city"
+      "imageUrl": "https://images.unsplash.com/photo-1704919262575-a692bebb4fcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjcmltZSUyMGludmVzdGlnYXRpb258ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crime investigation"
     },
     {
       "id": "series-3",
-      "description": "A detective looking at a clue board in a dark room.",
-      "imageUrl": "https://images.unsplash.com/photo-1758525589403-1235e5d6c300?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxteXN0ZXJ5JTIwZGV0ZWN0aXZlfGVufDB8fHx8MTc2MTU2MTY1OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mystery detective"
+      "imageUrl": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsZWdhbCUyMGRyYW1hfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "legal drama"
     },
     {
       "id": "series-4",
-      "description": "A group of friends laughing around a campfire.",
+      "imageUrl": "https://images.unsplash.com/photo-1726820000571-b5ac13b4c054?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWlsaXRhcnklMjBhY3Rpb258ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "military action"
+    },
+    {
+      "id": "series-5",
+      "imageUrl": "https://images.unsplash.com/photo-1671647694655-95abb95fe5fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzY2ktZmklMjB3YXJyaW9yfGVufDB8fHx8MTc2MTYyODg4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi warrior"
+    },
+    {
+      "id": "series-6",
+      "imageUrl": "https://images.unsplash.com/photo-1587504218914-44346092cef8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21lZHklMjBwb2xpY2V8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comedy police"
+    },
+    {
+      "id": "series-7",
+      "imageUrl": "https://images.unsplash.com/photo-1638814636116-fd47fad49e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyZXRybyUyMGZyaWVuZHN8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "retro friends"
+    },
+    {
+      "id": "series-8",
+      "imageUrl": "https://images.unsplash.com/photo-1609850928067-d45e195252d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxnYW5nc3RlciUyMGRyYW1hfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gangster drama"
+    },
+    {
+      "id": "series-9",
+      "imageUrl": "https://images.unsplash.com/photo-1760390728331-a11557caa567?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxteXN0ZXJ5JTIwdGF0dG9vfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mystery tattoo"
+    },
+    {
+      "id": "series-10",
+      "imageUrl": "https://images.unsplash.com/photo-1748443371472-e25a9b4e7190?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhY3Rpb24lMjBzbmlwZXJ8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "action sniper"
+    },
+    {
+      "id": "series-11",
+      "imageUrl": "https://images.unsplash.com/photo-1683321567931-f903f39759fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsZWdhbCUyMGNyaW1lfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "legal crime"
+    },
+    {
+      "id": "series-12",
+      "imageUrl": "https://images.unsplash.com/photo-1760954185892-86d343ae2433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmltZSUyMGRyYW1hfGVufDB8fHx8MTc2MTU2NDc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crime drama"
+    },
+    {
+      "id": "series-13",
+      "imageUrl": "https://images.unsplash.com/photo-1753301066699-a2ef4bd08f51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhbmltYXRlZCUyMGNvbWVkeXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "animated comedy"
+    },
+    {
+      "id": "series-14",
+      "imageUrl": "https://images.unsplash.com/photo-1633266841047-719b5f737149?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcmltZSUyMHRocmlsbGVyfGVufDB8fHx8MTc2MTYyODY4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crime thriller"
+    },
+    {
+      "id": "series-15",
+      "imageUrl": "https://images.unsplash.com/photo-1649014681581-4b25f6050f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcmlzb24lMjBkcmFtYXxlbnwwfHx8fDE3NjE2MDAwNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "prison drama"
+    },
+    {
+      "id": "series-16",
+      "imageUrl": "https://picsum.photos/seed/goodplace/400/600",
+      "imageHint": "fantasy comedy"
+    },
+    {
+      "id": "series-17",
+      "imageUrl": "https://images.unsplash.com/photo-1668706971199-37e30a4e6298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xpdGljYWwlMjB0aHJpbGxlcnxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "political thriller"
+    },
+    {
+      "id": "series-18",
+      "imageUrl": "https://images.unsplash.com/photo-1730272768147-2b1442f8a965?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21lZHklMjBmYW1pbHl8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comedy family"
+    },
+    {
+      "id": "series-19",
+      "imageUrl": "https://images.unsplash.com/photo-1758526387788-7e6487b5763a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWVuJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjI4NjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen drama"
+    },
+    {
+      "id": "series-20",
+      "imageUrl": "https://images.unsplash.com/photo-1752715531429-f22ebe9b5680?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzb2NjZXIlMjBjb21lZHl8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "soccer comedy"
+    },
+    {
+      "id": "series-21",
+      "imageUrl": "https://images.unsplash.com/photo-1668706971199-37e30a4e6298?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb2xpdGljYWwlMjBkcmFtYXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "political drama"
+    },
+    {
+      "id": "series-22",
+      "imageUrl": "https://images.unsplash.com/photo-1602518872490-2887dfdb5535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWlzdCUyMHRocmlsbGVyfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "heist thriller"
+    },
+    {
+      "id": "series-23",
+      "imageUrl": "https://images.unsplash.com/photo-1750192524484-36450bbb1dd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2ktZmklMjBob3Jyb3J8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi horror"
+    },
+    {
+      "id": "series-24",
+      "imageUrl": "https://images.unsplash.com/photo-1635425140151-1ffb3352775a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWVuJTIwbXlzdGVyeXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen mystery"
+    },
+    {
+      "id": "series-25",
+      "imageUrl": "https://images.unsplash.com/photo-1758526387788-7e6487b5763a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWVuJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjI4NjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen drama"
+    },
+    {
+      "id": "series-26",
+      "imageUrl": "https://images.unsplash.com/photo-1636056471685-1cfdfa9d2e4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21lZHklMjBkZXRlY3RpdmV8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comedy detective"
+    },
+    {
+      "id": "series-27",
+      "imageUrl": "https://picsum.photos/seed/sexed/400/600",
+      "imageHint": "teen comedy"
+    },
+    {
+      "id": "series-28",
+      "imageUrl": "https://images.unsplash.com/photo-1747470198294-b906f9d0af48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWVuJTIwY3JpbWV8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen crime"
+    },
+    {
+      "id": "series-29",
+      "imageUrl": "https://images.unsplash.com/photo-1602370087990-45153f02841b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWVuJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjI4NjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen drama"
+    },
+    {
+      "id": "series-30",
+      "imageUrl": "https://picsum.photos/seed/unabomber/400/600",
+      "imageHint": "crime biography"
+    },
+    {
+      "id": "series-31",
       "imageUrl": "https://images.unsplash.com/photo-1758525862263-af89b090fb56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21lZHklMjBmcmllbmRzfGVufDB8fHx8MTc2MTY1NDc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "comedy friends"
     },
     {
-      "id": "series-5",
-      "description": "A castle on a hill under a stormy sky.",
-      "imageUrl": "https://images.unsplash.com/photo-1492502014314-f5522cae92a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFudGFzeSUyMGNhc3RsZXxlbnwwfHx8fDE3NjE2MzEwNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fantasy castle"
+      "id": "series-32",
+      "imageUrl": "https://images.unsplash.com/photo-1675335390906-0caa546bec1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzY2ktZmklMjBteXN0ZXJ5fGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi mystery"
     },
     {
-      "id": "series-6",
-      "description": "A couple walking hand-in-hand on a beach at sunset.",
-      "imageUrl": "https://images.unsplash.com/photo-1598871244392-76f6d0ab08f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb21hbmNlJTIwYmVhY2h8ZW58MHx8fHwxNzYxNTc0OTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "romance beach"
+      "id": "series-33",
+      "imageUrl": "https://images.unsplash.com/photo-1613210784191-4aadc83ae6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmltYXRlZCUyMGNvbWVkeXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "animated comedy"
     },
     {
-      "id": "series-7",
-      "description": "A lone warrior standing on a mountain peak.",
-      "imageUrl": "https://images.unsplash.com/photo-1648298588772-56844c7e9ff8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWN0aW9uJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc2MTY0NTA0NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "action adventure"
+      "id": "series-34",
+      "imageUrl": "https://images.unsplash.com/photo-1731764184018-c3cde0f38b5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmltYXRlZCUyMHNpdGNvbXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "animated sitcom"
     },
     {
-      "id": "series-8",
-      "description": "An old book with glowing symbols on its cover.",
-      "imageUrl": "https://images.unsplash.com/photo-1625675337903-ee71413606a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWdpYyUyMGJvb2t8ZW58MHx8fHwxNzYxNjM0MjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "magic book"
+      "id": "series-35",
+      "imageUrl": "https://images.unsplash.com/photo-1620853720814-763f74b945ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwY3JpbWV8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy crime"
     },
     {
-      "id": "series-9",
-      "description": "A modern operating room with surgeons at work.",
-      "imageUrl": "https://images.unsplash.com/photo-1659353888161-d71c6fd99847?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZWRpY2FsJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjYwNjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "medical drama"
+      "id": "series-36",
+      "imageUrl": "https://images.unsplash.com/photo-1611673982975-b68f09c3d9c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYW50YXN5JTIwZHJhbWF8ZW58MHx8fHwxNzYxNjYwODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy drama"
     },
     {
-      "id": "series-10",
-      "description": "A post-apocalyptic survivor looking over a ruined city.",
-      "imageUrl": "https://images.unsplash.com/photo-1734548850375-3b7edc77bcee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkeXN0b3BpYW4lMjBmdXR1cmV8ZW58MHx8fHwxNzYxNjYwNjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dystopian future"
+      "id": "series-37",
+      "imageUrl": "https://images.unsplash.com/photo-1682632618859-47904338bea1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21lZHklMjBzZXJpZXN8ZW58MHx8fHwxNzYxNjA3NDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comedy series"
+    },
+    {
+      "id": "series-38",
+      "imageUrl": "https://images.unsplash.com/photo-1550634912-40b4a12c75ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiaW9ncmFwaHklMjBtdXNpY3xlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "biography music"
+    },
+    {
+      "id": "series-39",
+      "imageUrl": "https://images.unsplash.com/photo-1603093667903-b49757c65d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21lZHklMjBzcHl8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comedy spy"
+    },
+    {
+      "id": "series-40",
+      "imageUrl": "https://images.unsplash.com/photo-1690400524283-4e410dce7318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmltZSUyMHBzeWNob2xvZ3l8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crime psychology"
+    },
+    {
+      "id": "series-41",
+      "imageUrl": "https://picsum.photos/seed/goodplace2/400/600",
+      "imageHint": "fantasy comedy"
+    },
+    {
+      "id": "series-42",
+      "imageUrl": "https://images.unsplash.com/photo-1608697341777-80b7461d93c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXBlcmhlcm8lMjBhY3Rpb258ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "superhero action"
+    },
+    {
+      "id": "series-43",
+      "imageUrl": "https://images.unsplash.com/photo-1620625534499-446cef3dd12a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdXBlcmhlcm8lMjBhY3Rpb258ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "superhero action"
+    },
+    {
+      "id": "series-44",
+      "imageUrl": "https://images.unsplash.com/photo-1608889476561-6242cfdbf622?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdXBlcmhlcm8lMjB0ZWFtfGVufDB8fHx8MTc2MTU4NDU0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "superhero team"
+    },
+    {
+      "id": "series-45",
+      "imageUrl": "https://images.unsplash.com/photo-1760954185931-40d5b65fbb86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdXBlcmhlcm8lMjBhY3Rpb258ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "superhero action"
+    },
+    {
+      "id": "series-46",
+      "imageUrl": "https://images.unsplash.com/photo-1747114936280-257b662bfe72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzcHklMjBhY3Rpb258ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spy action"
+    },
+    {
+      "id": "series-47",
+      "imageUrl": "https://images.unsplash.com/photo-1602370087990-45153f02841b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWVuJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjI4NjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen drama"
+    },
+    {
+      "id": "series-48",
+      "imageUrl": "https://images.unsplash.com/photo-1712246459367-f3a086f093df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdXBlcm5hdHVyYWwlMjByb21hbmNlfGVufDB8fHx8MTc2MTY2MTMxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "supernatural romance"
+    },
+    {
+      "id": "series-49",
+      "imageUrl": "https://picsum.photos/seed/originals/400/600",
+      "imageHint": "supernatural drama"
+    },
+    {
+      "id": "series-50",
+      "imageUrl": "https://picsum.photos/seed/clientlist/400/600",
+      "imageHint": "drama series"
+    },
+    {
+      "id": "series-51",
+      "imageUrl": "https://picsum.photos/seed/youmeher/400/600",
+      "imageHint": "romantic comedy"
+    },
+    {
+      "id": "series-52",
+      "imageUrl": "https://images.unsplash.com/photo-1651039495849-1d0d53a3b74f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYW50YXN5JTIwbXlzdGVyeXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy mystery"
+    },
+    {
+      "id": "series-53",
+      "imageUrl": "https://images.unsplash.com/photo-1760954185892-86d343ae2433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmltZSUyMGRyYW1hfGVufDB8fHx8MTc2MTU2NDc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crime drama"
+    },
+    {
+      "id": "series-54",
+      "imageUrl": "https://images.unsplash.com/photo-1590978935631-65884b20570c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjcmltZSUyMGRyYW1hfGVufDB8fHx8MTc2MTU2NDc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crime drama"
+    },
+    {
+      "id": "series-55",
+      "imageUrl": "https://images.unsplash.com/photo-1670436972530-c52b1957a04b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZWFsaXR5JTIwc2hvd3xlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "reality show"
+    },
+    {
+      "id": "series-56",
+      "imageUrl": "https://images.unsplash.com/photo-1613210784191-4aadc83ae6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhbmltYXRlZCUyMGNvbWVkeXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "animated comedy"
+    },
+    {
+      "id": "series-57",
+      "imageUrl": "https://images.unsplash.com/photo-1500088247961-5c49ba265d46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx0ZWVuJTIwYWR2ZW50dXJlfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen adventure"
+    },
+    {
+      "id": "series-58",
+      "imageUrl": "https://images.unsplash.com/photo-1635425140151-1ffb3352775a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWVuJTIwbXlzdGVyeXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen mystery"
+    },
+    {
+      "id": "series-59",
+      "imageUrl": "https://images.unsplash.com/photo-1682632618859-47904338bea1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21lZHklMjBzZXJpZXN8ZW58MHx8fHwxNzYxNjA3NDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comedy series"
+    },
+    {
+      "id": "series-60",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1552111315-86e3577ec8e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwYWN0aW9ufGVufDB8fHx8MTc2MTY2MTMxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy action"
+    },
+    {
+      "id": "series-61",
+      "imageUrl": "https://picsum.photos/seed/dynasty/400/600",
+      "imageHint": "drama series"
+    },
+    {
+      "id": "series-62",
+      "imageUrl": "https://images.unsplash.com/photo-1706082403373-f42d8cc97668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhY3Rpb24lMjB0aHJpbGxlcnxlbnwwfHx8fDE3NjE1NzM4NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "action thriller"
+    },
+    {
+      "id": "series-63",
+      "imageUrl": "https://images.unsplash.com/photo-1529630218527-7df22fc2d4ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxrYXJhdGUlMjBhY3Rpb258ZW58MHx8fHwxNzYxNjYxMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "karate action"
+    },
+    {
+      "id": "series-64",
+      "imageUrl": "https://images.unsplash.com/photo-1759863738666-7584248cdf7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzdXBlcmhlcm8lMjBhY3Rpb258ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "superhero action"
+    },
+    {
+      "id": "series-65",
+      "imageUrl": "https://images.unsplash.com/photo-1761212662015-be69ada77d43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzY2ktZmklMjBteXN0ZXJ5fGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi mystery"
+    },
+    {
+      "id": "series-66",
+      "imageUrl": "https://images.unsplash.com/photo-1606560180292-6c80f7d724ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlbWVyZ2VuY3klMjBkcmFtYXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "emergency drama"
+    },
+    {
+      "id": "series-67",
+      "imageUrl": "https://images.unsplash.com/photo-1757765043645-71cc8e33122e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzY2ktZmklMjBhY3Rpb258ZW58MHx8fHwxNzYxNjU4NjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi action"
+    },
+    {
+      "id": "series-68",
+      "imageUrl": "https://images.unsplash.com/photo-1502321685473-ad40a3eeca99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzY2ktZmklMjBhZHZlbnR1cmV8ZW58MHx8fHwxNzYxNjU0OTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi adventure"
+    },
+    {
+      "id": "series-69",
+      "imageUrl": "https://images.unsplash.com/photo-1760577249662-9758752325ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmYW50YXN5JTIwZHJhbWF8ZW58MHx8fHwxNzYxNjYwODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fantasy drama"
+    },
+    {
+      "id": "series-70",
+      "imageUrl": "https://images.unsplash.com/photo-1760684535127-25e3c97168c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJpb2QlMjByb21hbmNlfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "period romance"
+    },
+    {
+      "id": "series-71",
+      "imageUrl": "https://images.unsplash.com/photo-1728632286888-04c64f48e506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzY2ktZmklMjBzcHl8ZW58MHx8fHwxNzYxNjYxMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi spy"
+    },
+    {
+      "id": "series-72",
+      "imageUrl": "https://picsum.photos/seed/bbt/400/600",
+      "imageHint": "comedy sitcom"
+    },
+    {
+      "id": "series-73",
+      "imageUrl": "https://picsum.photos/seed/youngsheldon/400/600",
+      "imageHint": "comedy sitcom"
+    },
+    {
+      "id": "series-74",
+      "imageUrl": "https://images.unsplash.com/photo-1643281587416-f321cce11c94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzY2ktZmklMjBhY3Rpb258ZW58MHx8fHwxNzYxNjU4NjAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sci-fi action"
+    },
+    {
+      "id": "series-75",
+      "imageUrl": "https://images.unsplash.com/photo-1719424573216-e4d6323ab47f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0ZWVuJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjI4NjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teen drama"
+    },
+    {
+      "id": "series-76",
+      "imageUrl": "https://images.unsplash.com/photo-1758525589668-6fe313595396?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzcHklMjB0aHJpbGxlcnxlbnwwfHx8fDE3NjE2MTc1NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spy thriller"
+    },
+    {
+      "id": "series-77",
+      "imageUrl": "https://images.unsplash.com/photo-1546561255-45f28a206e4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwb2xpY2UlMjBkcmFtYXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "police drama"
+    },
+    {
+      "id": "series-78",
+      "imageUrl": "https://images.unsplash.com/photo-1731764481567-b8251a4bce70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cG9saWNlJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjYxMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "police drama"
+    },
+    {
+      "id": "series-79",
+      "imageUrl": "https://picsum.photos/seed/gentleman/400/600",
+      "imageHint": "crime comedy"
+    },
+    {
+      "id": "series-80",
+      "imageUrl": "https://images.unsplash.com/photo-1592561199818-6b69d3d1d6e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhbmltYXRlZCUyMHNjaS1maXxlbnwwfHx8fDE3NjE2NjEzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "animated sci-fi"
+    },
+    {
+      "id": "series-81",
+      "imageUrl": "https://images.unsplash.com/photo-1649446801521-61ea6333f4c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXJrJTIwY29tZWR5fGVufDB8fHx8MTc2MTYxNzU1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark comedy"
+    },
+    {
+      "id": "series-82",
+      "imageUrl": "https://images.unsplash.com/photo-1564342750092-8f1d5777876e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3N0LWFwb2NhbHlwdGljJTIwZHJhbWF8ZW58MHx8fHwxNzYxNjYxMzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "post-apocalyptic drama"
+    },
+    {
+      "id": "series-83",
+      "imageUrl": "https://picsum.photos/seed/billions/400/600",
+      "imageHint": "financial drama"
+    },
+    {
+      "id": "series-84",
+      "imageUrl": "https://images.unsplash.com/photo-1564438673903-e3ed973c4bff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzcGFuaXNoJTIwY29tZWR5fGVufDB8fHx8MTc2MTY2MTMxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spanish comedy"
+    },
+    {
+      "id": "series-85",
+      "imageUrl": "https://images.unsplash.com/photo-1680506370687-29079983a01f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0aHJpbGxlciUyMGRyYW1hfGVufDB8fHx8MTc2MTY1ODU5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thriller drama"
+    },
+    {
+      "id": "series-86",
+      "imageUrl": "https://images.unsplash.com/photo-1758525862375-7e2678a526fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0aHJpbGxlciUyMHN1c3BlbnNlfGVufDB8fHx8MTc2MTY2MTMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thriller suspense"
     }
   ]
 }
