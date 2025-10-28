@@ -56,7 +56,6 @@ const seriesBaseData = [
   { id: 40, title: 'The Flash', isFavorite: false, imageId: 'series-43' },
   { id: 41, title: 'DC\'s Legends of Tomorrow', isFavorite: false, imageId: 'series-44' },
   { id: 42, title: 'Supergirl', isFavorite: false, imageId: 'series-45' },
-  { id: 43, title: 'Agents of S.H.I.E.L.D.', isFavorite: false, imageId: 'series-46' },
   { id: 44, title: 'Gossip Girl', isFavorite: false, imageId: 'series-47' },
   { id: 45, title: 'The Vampire Diaries', isFavorite: true, imageId: 'series-48' },
   { id: 46, title: 'The Originals', isFavorite: false, imageId: 'series-49' },
@@ -144,7 +143,6 @@ const descriptions: Record<string, string> = {
   'The Flash': 'After being struck by lightning, Barry Allen wakes up from his coma to discover he\'s been given the power of super speed, becoming the Flash, fighting crime in Central City.',
   'DC\'s Legends of Tomorrow': 'Time-traveling rogue Rip Hunter has to recruit a rag-tag team of heroes and villains to help prevent an apocalypse that could impact not only Earth, but all of time.',
   'Supergirl': 'The adventures of Superman\'s cousin in her own right, who after 12 years of keeping her powers a secret on Earth, decides to finally embrace her superhuman abilities and be the hero she was always meant to be.',
-  'Agents of S.H.I.E.L.D.': 'The missions of the Strategic Homeland Intervention, Enforcement and Logistics Division.',
   'Gossip Girl': 'Privileged teens living on the Upper East Side of New York can hide no secret from the ruthless blogger who is always watching.',
   'The Vampire Diaries': 'The lives, loves, dangers and disasters in the town, Mystic Falls, Virginia. Creatures of unspeakable horror lurk beneath this town as a teenage girl is suddenly torn between two vampire brothers.',
   'The Originals': 'A family of power-hungry thousand-year-old vampires look to take back the city they built and dominate all those who have done them wrong.',
@@ -188,10 +186,10 @@ const descriptions: Record<string, string> = {
 
 const top5Posters: Record<string, string> = {
   'Game of Thrones': 'https://image.tmdb.org/t/p/original/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg',
-  'White Collar': 'https://image.tmdb.org/t/p/original/4z1kY32YPPasP4aI2e5a2s3pS4.jpg',
-  'Suits': 'https://image.tmdb.org/t/p/original/vHviFxO5x6flpCI0WHQ4JpP1f5s.jpg',
-  'Los hombres del SAS': 'https://image.tmdb.org/t/p/original/uFMAba5Gq5I4VdY3A33y0X2L22O.jpg',
-  'The Mandalorian': 'https://image.tmdb.org/t/p/original/p6t2lAdGGrTvk36H7PLi2g2Oa3j.jpg',
+  'White Collar': 'https://m.media-amazon.com/images/S/pv-target-images/86c79e79cb96910bea2ca778c8186fbe6b6e46a2a566746e31dfc09756b9d7fd.jpg',
+  'Suits': 'https://onlyposter.it/cdn/shop/files/suits2011.jpg?v=1748382463&width=1346',
+  'Los hombres del SAS': 'https://m.media-amazon.com/images/M/MV5BN2I5NzBhYzItNGEwOC00Y2RlLTg3OWYtYjE1YmYyMjM3ZGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg',
+  'The Mandalorian': 'https://static.posters.cz/image/1300/posters/star-wars-the-mandalorian-nightfall-i103406.jpg',
 };
 
 

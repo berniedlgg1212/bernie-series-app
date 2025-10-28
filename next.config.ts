@@ -33,6 +33,24 @@ const nextConfig: NextConfig = {
         hostname: 'image.tmdb.org',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.posters.cz',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'onlyposter.it',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
