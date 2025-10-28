@@ -1,7 +1,5 @@
-
-'use client';
 import Image from 'next/image';
-import { allSeries } from '@/lib/series-data';
+import { getAllSeries } from '@/lib/series-data';
 import { Rating } from '@/components/Rating';
 import {
   Card,
@@ -17,27 +15,21 @@ import {
   TooltipContent,
 } from '@/components/ui/tooltip';
 
-export default function Home() {
+export default async function Home() {
+  const allSeries = await getAllSeries();
+
+  const topSeriesTitles = [
+    'Game of Thrones',
+    'White Collar',
+    'Suits',
+    'SAS: Rogue Heroes',
+    'The Mandalorian',
+  ];
+
   const topSeries = allSeries
-    .filter(
-      (s) =>
-        [
-          'Game of Thrones',
-          'White Collar',
-          'Suits',
-          'Los hombres del SAS',
-          'The Mandalorian',
-        ].includes(s.title)
-    )
+    .filter((s) => topSeriesTitles.includes(s.title))
     .sort((a, b) => {
-      const order = [
-        'Game of Thrones',
-        'White Collar',
-        'Suits',
-        'Los hombres del SAS',
-        'The Mandalorian',
-      ];
-      return order.indexOf(a.title) - order.indexOf(b.title);
+      return topSeriesTitles.indexOf(a.title) - topSeriesTitles.indexOf(b.title);
     });
 
   return (

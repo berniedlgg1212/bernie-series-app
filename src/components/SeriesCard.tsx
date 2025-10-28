@@ -1,4 +1,3 @@
-
 'use client';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -50,6 +49,7 @@ export function SeriesCard({ series, style }: SeriesCardProps) {
           align="start"
           className="max-w-[250px] sm:max-w-xs"
         >
+          <p className="font-bold mb-2">{series.title}</p>
           <p className="text-sm text-muted-foreground">{series.description}</p>
         </TooltipContent>
       </Tooltip>

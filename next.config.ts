@@ -66,6 +66,9 @@ const nextConfig: NextConfig = {
       }
     ],
   },
+  env: {
+    TMDB_API_KEY: '0d3e9dd593b6f178ee3eeca4129bc5bf',
+  },
 };
 
 export default nextConfig;
