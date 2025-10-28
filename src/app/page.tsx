@@ -1,3 +1,5 @@
+
+'use client';
 import Image from 'next/image';
 import { allSeries } from '@/lib/series-data';
 import { Rating } from '@/components/Rating';
@@ -6,15 +8,35 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-  CardDescription,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import {
+  TooltipProvider,
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from '@/components/ui/tooltip';
 
 export default function Home() {
   const topSeries = allSeries
-    .filter(s => ['Game of Thrones', 'White Collar', 'Suits', 'Los hombres del SAS', 'The Mandalorian'].includes(s.title))
+    .filter(
+      (s) =>
+        [
+          'Game of Thrones',
+          'White Collar',
+          'Suits',
+          'Los hombres del SAS',
+          'The Mandalorian',
+        ].includes(s.title)
+    )
     .sort((a, b) => {
-      const order = ['Game of Thrones', 'White Collar', 'Suits', 'Los hombres del SAS', 'The Mandalorian'];
+      const order = [
+        'Game of Thrones',
+        'White Collar',
+        'Suits',
+        'Los hombres del SAS',
+        'The Mandalorian',
+      ];
       return order.indexOf(a.title) - order.indexOf(b.title);
     });
 
@@ -24,49 +46,61 @@ export default function Home() {
         Top 5 Series
       </h1>
       <div className="space-y-8">
-        {topSeries.map((series, index) => (
-          <Card
-            key={series.id}
-            className="overflow-hidden animate-fade-in opacity-0"
-            style={{ animationDelay: `${index * 150}ms`, animationFillMode: 'forwards' }}
-          >
-            <div className="grid md:grid-cols-3 gap-0 md:gap-6">
-              <div className="md:col-span-1 relative h-60 md:h-auto">
-                <Image
-                  src={series.imageUrl}
-                  alt={`Poster for ${series.title}`}
-                  fill
-                  className="object-cover"
-                  data-ai-hint={series.imageHint}
-                />
+        <TooltipProvider>
+          {topSeries.map((series, index) => (
+            <Card
+              key={series.id}
+              className="overflow-hidden animate-fade-in opacity-0"
+              style={{
+                animationDelay: `${index * 150}ms`,
+                animationFillMode: 'forwards',
+              }}
+            >
+              <div className="grid md:grid-cols-3 gap-0 md:gap-6">
+                <div className="md:col-span-1 relative h-60 md:h-auto">
+                  <Image
+                    src={series.imageUrl}
+                    alt={`Poster for ${series.title}`}
+                    fill
+                    className="object-cover"
+                    data-ai-hint={series.imageHint}
+                  />
+                </div>
+                <div className="md:col-span-2">
+                  <CardHeader>
+                    <div className="flex items-start justify-between gap-4">
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <CardTitle className="text-2xl font-headline cursor-default">
+                            {series.title}
+                          </CardTitle>
+                        </TooltipTrigger>
+                        <TooltipContent side="bottom" align="start">
+                          <p className="max-w-sm">{series.description}</p>
+                        </TooltipContent>
+                      </Tooltip>
+                      <Badge
+                        variant="secondary"
+                        className="text-lg font-bold text-primary shrink-0"
+                      >
+                        #{index + 1}
+                      </Badge>
+                    </div>
+                    <div className="pt-2">
+                      <Rating rating={series.rating} />
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground line-clamp-3">
+                      {series.description}
+                    </p>
+                  </CardContent>
+                </div>
               </div>
-              <div className="md:col-span-2">
-                <CardHeader>
-                  <div className="flex items-start justify-between gap-4">
-                    <CardTitle className="text-2xl font-headline">
-                      {series.title}
-                    </CardTitle>
-                    <Badge
-                      variant="secondary"
-                      className="text-lg font-bold text-primary shrink-0"
-                    >
-                      #{index + 1}
-                    </Badge>
-                  </div>
-                  <div className="pt-2">
-                    <Rating rating={series.rating} />
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription>{series.description}</CardDescription>
-                </CardContent>
-              </div>
-            </div>
-          </Card>
-        ))}
+            </Card>
+          ))}
+        </TooltipProvider>
       </div>
     </div>
   );
 }
-
-    
