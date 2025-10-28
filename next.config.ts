@@ -51,6 +51,18 @@ const nextConfig: NextConfig = {
         hostname: 'onlyposter.it',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ichef.bbci.co.uk',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.libelista.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

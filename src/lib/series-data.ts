@@ -188,8 +188,8 @@ const top5Posters: Record<string, string> = {
   'Game of Thrones': 'https://image.tmdb.org/t/p/original/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg',
   'White Collar': 'https://m.media-amazon.com/images/S/pv-target-images/86c79e79cb96910bea2ca778c8186fbe6b6e46a2a566746e31dfc09756b9d7fd.jpg',
   'Suits': 'https://onlyposter.it/cdn/shop/files/suits2011.jpg?v=1748382463&width=1346',
-  'Los hombres del SAS': 'https://m.media-amazon.com/images/M/MV5BN2I5NzBhYzItNGEwOC00Y2RlLTg3OWYtYjE1YmYyMjM3ZGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg',
-  'The Mandalorian': 'https://static.posters.cz/image/1300/posters/star-wars-the-mandalorian-nightfall-i103406.jpg',
+  'Los hombres del SAS': 'https://ichef.bbci.co.uk/images/ic/976x549/p0k4kl26.jpg',
+  'The Mandalorian': 'https://www.libelista.com/media/resources/public/57/5711/5711063992bc44bfbdcba31978f37c8c',
 };
 
 
