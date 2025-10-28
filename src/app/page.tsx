@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { getAllSeries } from '@/lib/series-data';
 import { Rating } from '@/components/Rating';
@@ -14,23 +16,35 @@ import {
   TooltipTrigger,
   TooltipContent,
 } from '@/components/ui/tooltip';
+import { useEffect, useState } from 'react';
+import type { Series } from '@/lib/series-data';
 
-export default async function Home() {
-  const allSeries = await getAllSeries();
+export default function Home() {
+  const [topSeries, setTopSeries] = useState<Series[]>([]);
 
-  const topSeriesTitles = [
-    'Game of Thrones',
-    'White Collar',
-    'Suits',
-    'SAS: Rogue Heroes',
-    'The Mandalorian',
-  ];
+  useEffect(() => {
+    async function loadSeries() {
+      const allSeries = await getAllSeries();
 
-  const topSeries = allSeries
-    .filter((s) => topSeriesTitles.includes(s.title))
-    .sort((a, b) => {
-      return topSeriesTitles.indexOf(a.title) - topSeriesTitles.indexOf(b.title);
-    });
+      const topSeriesTitles = [
+        'Game of Thrones',
+        'White Collar',
+        'Suits',
+        'The White Lotus',
+        'The Mandalorian',
+      ];
+
+      const filteredSeries = allSeries
+        .filter((s) => topSeriesTitles.includes(s.title))
+        .sort((a, b) => {
+          return topSeriesTitles.indexOf(a.title) - topSeriesTitles.indexOf(b.title);
+        });
+      
+      setTopSeries(filteredSeries);
+    }
+    loadSeries();
+  }, []);
+
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
