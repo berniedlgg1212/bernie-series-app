@@ -7,7 +7,7 @@ This project is a Single Page Application (SPA) designed for TV series enthusias
 
 ## 🚀 Deployed Application
 
-You can view the live application here: **[Paste Your Deployed Link Here (e.g., from Vercel)]**
+You can view the live application here: https://bernie-series-app.vercel.app
 
 ## 📝 Project Description & Theme
 
@@ -37,39 +37,3 @@ Follow these steps to run the project on your local machine.
 *   Node.js (v18 or newer recommended)
 *   npm (usually comes with Node.js)
 
-### Step-by-Step Installation
-
-1.  **Clone the Repository**
-    ```bash
-    git clone [URL of your Git repository]
-    cd [repository-folder-name]
-    ```
-
-2.  **Install Dependencies**
-    This command will install all the necessary packages for the project to run.
-    ```bash
-    npm install
-    ```
-
-3.  **Set Up Environment Variables**
-    You need an API key from TheMovieDB. Create a file named `.env.local` in the root of the project and add your key:
-    ```
-    TMDB_API_KEY=your_tmdb_api_key_here
-    ```
-
-4.  **Run the Application (in two terminals)**
-    This project requires two processes to run simultaneously: the web application and the mock API server.
-
-    *   **In your first terminal**, start the mock API server:
-        ```bash
-        npm run db:serve
-        ```
-        This will start the `json-server` on `http://localhost:3001`, which will handle your review submissions.
-
-    *   **In a second terminal**, start the Next.js development server:
-        ```bash
-        npm run dev
-        ```
-
-5.  **Open the Application**
-    Open your browser and navigate to `http://localhost:9002` (or the URL provided by the `npm run dev` command). You should see the application running.
