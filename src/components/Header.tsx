@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Tv } from "lucide-react";
+import { Plus, Tv } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Button } from "./ui/button";
 
 export function Header() {
   const pathname = usePathname();
@@ -33,6 +34,12 @@ export function Header() {
               {link.label}
             </Link>
           ))}
+          <Link href="/series/add">
+            <Button variant="ghost" size="icon">
+              <Plus className="h-5 w-5" />
+              <span className="sr-only">Add Series</span>
+            </Button>
+          </Link>
         </div>
       </nav>
     </header>
